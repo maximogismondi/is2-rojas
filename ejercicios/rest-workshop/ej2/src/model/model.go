@@ -5,3 +5,7 @@ type Item struct {
 	ID    string `json:"id" binding:"required"`
 	Price int    `json:"price" binding:"required"`
 }
+
+type Error struct {
+	Message string `json:"message"`
+}
